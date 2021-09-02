@@ -2,7 +2,7 @@ import cv2
 Capture1 = cv2.VideoCapture(0)
 while(True):
     ret,frame = Capture1.read()
-    cv2.imshow('Capturing Video',frame)
+    cv2.imshow('Camera - Icebreaker',frame)
     if(cv2.waitKey(1) & 0xFF == ord('q')):
         Capture1.release()
         cv2.destroyAllWindows()
