@@ -6,7 +6,6 @@ while(True):
     if(cv2.waitKey(1) & 0xFF == ord('q')):
         Capture1.release()
         cv2.destroyAllWindows()
-import cv2
 Capture2 = cv2.VideoCapture(0)
 result = True
 while(result):
